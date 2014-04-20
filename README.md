@@ -18,5 +18,5 @@ You may also want to change the region and VM size. Then
 vagrant up --provider=digital_ocean
 ````
 
-As an exmaple, the puppet manifest copies two files into the home directory of the
+As an example, the puppet manifest copies two files into the home directory of the
 vagrant user and also sets that user's shell to be zsh

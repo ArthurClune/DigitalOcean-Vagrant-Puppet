@@ -13,7 +13,7 @@ Vagrant.configure('2') do |config|
     override.vm.box_url = "https://github.com/smdahlen/vagrant-digitalocean/raw/master/box/digital_ocean.box"
 
     # Edit the DigitalOcean config to taste
-    provider.image = 'Ubuntu 13.10 x64'
+    provider.image = 'Ubuntu 14.04 x64'
     provider.region = 'Amsterdam 2'
     provider.client_id = 'your_client_id'
     provider.api_key = 'your_api_key'
